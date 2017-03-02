@@ -35,6 +35,9 @@
     <dependencySets>
         <dependencySet>
             <outputDirectory>lib</outputDirectory>
+            <excludes>
+                <exclude>com.jsedom</exclude>
+            </excludes>
         </dependencySet>
     </dependencySets>
 </assembly>

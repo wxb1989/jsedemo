@@ -29,6 +29,25 @@
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
         </dependency>
+
+
+            <dependency>
+                <groupId>com.rabbitmq</groupId>
+                <artifactId>amqp-client</artifactId>
+                <version>3.0.4</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-lang</groupId>
+                <artifactId>commons-lang</artifactId>
+                <version>2.6</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.1</version>
+            </dependency>
+
     </dependencies>
 
     <build>
@@ -41,7 +60,15 @@
                     <version>2.6</version>
                     <configuration>
                         <descriptor>src/assembly/assembly.xml</descriptor>
-                        <finalName>${project.build.finalName}-1</finalName>
+                        <finalName>${project.build.finalName}</finalName>
+                        <archive>
+                            <manifest>
+                                <mainClass>com.jsedom.AppBootStrap</mainClass>
+                            </manifest>
+                        </archive>
+                        <descriptorRefs>
+                            <descriptorRef>jar-with-dependencies</descriptorRef>
+                        </descriptorRefs>
                     </configuration>
                     <executions>
                         <execution>
