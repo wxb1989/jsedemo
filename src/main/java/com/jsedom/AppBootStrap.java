@@ -2,8 +2,6 @@ package com.jsedom;
 
 import org.apache.log4j.Logger;
 
-import java.util.Arrays;
-
 public class AppBootStrap {
     private static Logger logger = Logger.getLogger(AppBootStrap.class);
 
