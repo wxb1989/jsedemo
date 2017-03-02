@@ -1,7 +1,7 @@
 package com.jsedom.se.suanfa;
 
 /**
- * �鲢����
+ * 归并排序
  * @author lenovo
  *
  */
