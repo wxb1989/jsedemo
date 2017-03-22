@@ -103,6 +103,11 @@ public class BinarySearchInArray {
     public static void main(String[] args) {
         printSample();
         System.out.println(getValuefromMatrix(sample, 4, 4, 8));
+        int a = 5; int b = 10;
+        a = a ^ b;
+        b = a ^ b;
+        a = a ^ b;
 
+        System.out.println(a+ "   " + b);
     }
 }
