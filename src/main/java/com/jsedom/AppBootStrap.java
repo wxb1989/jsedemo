@@ -2,6 +2,8 @@ package com.jsedom;
 
 import org.apache.log4j.Logger;
 
+import java.util.Collections;
+
 public class AppBootStrap {
     private static Logger logger = Logger.getLogger(AppBootStrap.class);
 
@@ -12,8 +14,6 @@ public class AppBootStrap {
         String s = "abcdef";
         resStr(s,0,s.length()-1);
         int [] midArray={1,10,2,5,15,17};
-
-
     }
 
 

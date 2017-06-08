@@ -5,12 +5,10 @@ package com.jsedom.se.thinkinjava.singleton;
  */
 public class Test2 {
     public static void main(String[] args) {
-        new Thread( new Runnable() {
-            public void run() {
-                Singleton singleton =   Singleton.getInstance();
-                int count =   singleton.readI();
-                System.out.println( " count >>>  " +count+  " ");
-            }
-        }).start();
+        int a =10;
+        int b=11;
+        int c =a+b;
+        System.out.println(c);
+
     }
 }
