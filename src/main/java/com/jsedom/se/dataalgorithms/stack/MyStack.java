@@ -2,6 +2,10 @@ package com.jsedom.se.dataalgorithms.stack;
 
 import java.util.Iterator;
 
+/**
+ * 简单的实现了一个Stack
+ * @param <Item>
+ */
 public class MyStack <Item> implements Iterable<Item> {
 
     private int N;//容量
