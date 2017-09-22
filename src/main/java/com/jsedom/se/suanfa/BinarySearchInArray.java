@@ -100,9 +100,20 @@ public class BinarySearchInArray {
         return found;
     }
 
+
+    public  int[] binarySearch(int[]sourece ,long value){
+        int mid=sourece.length/2;
+        int low=0;
+        int pow = sourece.length-1;
+
+        return sourece;
+    }
+
     public static void main(String[] args) {
         printSample();
-        System.out.println(getValuefromMatrix(sample, 4, 4, 8));
+//        System.out.println(getValuefromMatrix(sample, 4, 4, 8));
+
+        System.out.println(binarySearchInArray(sample,8,2,3, 2,3));
         int a = 5; int b = 10;
         a = a ^ b;
         b = a ^ b;
