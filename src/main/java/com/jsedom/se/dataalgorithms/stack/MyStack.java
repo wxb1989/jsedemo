@@ -19,7 +19,7 @@ public class MyStack <Item> implements Iterable<Item> {
 
 
     public MyStack() {
-         this.N=0;
+        this.N=0;
         this.head = new Node();
     }
 
@@ -84,6 +84,7 @@ public class MyStack <Item> implements Iterable<Item> {
 
         System.out.println(stack.size());
 
+        stack.push("aaa");
         Iterator<String> iterator=stack.iterator();
         while(iterator.hasNext()) {
             System.out.println(iterator.next());

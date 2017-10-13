@@ -1,11 +1,14 @@
 package com.jsedom.se.dataalgorithms.array;
 
+
 import java.util.Arrays;
+import java.io.Serializable;
 
 /**
  * 自己实现数组
  */
-public class MyArray {
+public class MyArray implements  Serializable{
+
 
     private long [] array;//存放数据的数组
 
