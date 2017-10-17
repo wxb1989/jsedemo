@@ -4,6 +4,9 @@
  */
 package com.jsedom.se.thinkinjava.factory.staticfactory;
 
+/**
+ * @author Administrator
+ */
 public class Creator {
     private Creator(){}
 
