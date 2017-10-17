@@ -19,9 +19,9 @@ public class Creator {
         if (productName == null) {
             return null;
         }
-        if (productName.equals("A")) {
+        if ("A".equals(productName)) {
             return new ProductA();
-        }else if (productName.equals("B")) {
+        }else if ("B".equals(productName)) {
             return new ProductB();
         }else {
             return null;
