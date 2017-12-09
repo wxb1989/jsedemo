@@ -41,6 +41,13 @@ public class MongoDb {
         System.out.println(collection);
     }
 
+    public static void createIndex(){
+
+//        Bson createIndex = new Bson();
+//        collection.createIndex(createIndex);
+    }
+
+
     /**
      * 插入一个文档
      *
